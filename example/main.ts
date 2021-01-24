@@ -1,6 +1,6 @@
-import { serve } from "./deps.ts";
+import { serve } from "deps.ts";
 
-const PORT = 1993;
+const PORT = 80;
 const s = serve(`0.0.0.0:${PORT}`);
 const body = new TextEncoder().encode("Hello World\n");
 
