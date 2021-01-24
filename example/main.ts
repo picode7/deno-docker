@@ -1,4 +1,4 @@
-import { serve } from "deps.ts";
+import { serve } from "./deps.ts";
 
 const PORT = 80;
 const s = serve(`0.0.0.0:${PORT}`);
