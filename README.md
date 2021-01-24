@@ -11,4 +11,4 @@ Build own container:
 - `docker build -f alpine.dockerfile -t deno-alpine .` (or user distribution)
 - `cd example`
 - `docker build -t deno-example .`
-- `docker run -d -p 8080:80 deno-example`
+- `docker run -d -p 8080:1993 deno-example`

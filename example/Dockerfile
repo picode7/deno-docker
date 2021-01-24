@@ -1,7 +1,7 @@
 FROM alpine-deno
 
 # The port that your application listens to.
-EXPOSE 80
+EXPOSE 1993
 
 WORKDIR /app
 
